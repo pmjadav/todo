@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\wsd_progs\\ToDoApp4_TodoService\\ToDoAPI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\wsd_progs\\ToDoApp4_TodoService\\ToDoAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\wsd_progs\\ToDoApp4_TodoService\\ToDoAPI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ToDoAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ToDoAPI.props",
+      "PackagePath": "build\\ToDoAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDoAPI.props",
+      "PackagePath": "buildMultiTargeting\\ToDoAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ToDoAPI.props",
+      "PackagePath": "buildTransitive\\ToDoAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
