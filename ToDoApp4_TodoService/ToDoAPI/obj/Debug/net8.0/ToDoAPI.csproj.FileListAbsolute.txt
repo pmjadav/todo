@@ -1315,3 +1315,4 @@ C:\wsd_progs\ToDoApp4_TodoService\ToDoAPI\obj\Debug\net8.0\refint\ToDoAPI.dll
 C:\wsd_progs\ToDoApp4_TodoService\ToDoAPI\obj\Debug\net8.0\ToDoAPI.pdb
 C:\wsd_progs\ToDoApp4_TodoService\ToDoAPI\obj\Debug\net8.0\ToDoAPI.genruntimeconfig.cache
 C:\wsd_progs\ToDoApp4_TodoService\ToDoAPI\obj\Debug\net8.0\ref\ToDoAPI.dll
+C:\wsd_progs\ToDoApp4_TodoService\ToDoAPI\obj\Debug\net8.0\ToDoAPI.sourcelink.json
