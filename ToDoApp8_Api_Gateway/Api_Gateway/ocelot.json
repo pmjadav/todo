@@ -1,0 +1,64 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/TodoItems/", //Microservice Endpoint
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7051
+        }
+      ],
+      "UpstreamPathTemplate": "/GetTodoItems/", //Client Endpoint
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TodoItems/{id}", //Microservice Endpoint
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7051
+        }
+      ],
+      "UpstreamPathTemplate": "/GetTodoItem/{id}", //Client Endpoint
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TodoItems/", //Microservice Endpoint
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7051
+        }
+      ],
+      "UpstreamPathTemplate": "/PostTodoItem/", //Client Endpoint
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TodoItems/{id}", //Microservice Endpoint
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7051
+        }
+      ],
+      "UpstreamPathTemplate": "/PutTodoItem/{id}", //Client Endpoint
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TodoItems/{id}", //Microservice Endpoint
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7051
+        }
+      ],
+      "UpstreamPathTemplate": "/DeleteTodoItem/{id}", //Client Endpoint
+      "UpstreamHttpMethod": [ "Delete" ]
+    }
+  ]
+}
