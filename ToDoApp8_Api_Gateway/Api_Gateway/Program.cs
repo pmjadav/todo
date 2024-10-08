@@ -5,7 +5,8 @@ using Ocelot.Middleware;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Configuration.SetBasePath(Directory.GetCurrentDirectory())
+builder.Configuration
+        .SetBasePath(Directory.GetCurrentDirectory())
         .AddJsonFile("ocelot.json", optional: false, reloadOnChange: true)
         .AddEnvironmentVariables();
 
